@@ -17,8 +17,9 @@
 # Board device path
 DEVICE_PATH := device/xiaomi/whyred
 
-BOARD_VENDOR := xiaomi
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
+# Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm636
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno509
 TARGET_NO_BOOTLOADER := true
